@@ -19617,5 +19617,7 @@ ul.errorlist li {
     display: block !important;
     font-weight: 700 !important;
 }
-
+.form-group textarea{
+    width: 100%;
+}
 /*# sourceMappingURL=bootstrap.css.map */

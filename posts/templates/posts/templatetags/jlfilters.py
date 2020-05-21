@@ -1,4 +1,5 @@
 from django import template
+from posts.models import Post
 
 register = template.Library()
 
@@ -17,4 +18,6 @@ def plural_comentarios(n):
 
     except:
         return f'{n} comentário(s)'
+
+
 
